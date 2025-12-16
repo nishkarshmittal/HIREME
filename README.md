@@ -39,18 +39,18 @@ List of Python dependencies required to run the project.
 final_report.pdf                            
 Final project report describing the methodology, analysis, results, and conclusions.
 
-## Setup Instructions
+# Setup Instructions
 
-# Prerequisites
+## Prerequisites
 Python version 3.9 or higher is required. An active internet connection is needed to access the public job APIs.
 
-# Installing Dependencies
+## Installing Dependencies
 Install the required Python packages by running:
 
 pip install -r requirements.txt
 
 
-## Data Collection and Processing
+# Data Collection and Processing
 The core data collection and processing logic is implemented in job_pipeline.py. Data is collected and cleaned by calling the pipeline functions from the notebook.
 
 Example usage:
