@@ -7,10 +7,10 @@ This project analyzes trends in the technology job market by collecting and exam
 # Data Sources
 The data for this project was collected using a combination of public APIs and web scraping techniques. The following sources were used:
 
-RemoteOK
+RemoteOK      
 Job data was collected using the RemoteOK public API. The API provides structured JSON data for remote job postings, including job titles, company names, locations, job descriptions, and salary information.
 
-Remotive
+Remotive          
 Job data was collected using the Remotive public API. This API provides structured access to remote job postings across multiple categories, including software development and data related roles.
 
 These sources were selected due to their accessibility, structured data format, and reproducibility.
