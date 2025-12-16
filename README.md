@@ -36,7 +36,7 @@ Cleaned and processed dataset used for analysis and visualization.
 # requirements.txt
 List of Python dependencies required to run the project.
 
-final_report.pdf
+# final_report.pdf
 Final project report describing the methodology, analysis, results, and conclusions.
 
 ## Setup Instructions
@@ -49,7 +49,6 @@ Install the required Python packages by running:
 
 pip install -r requirements.txt
 
-# Running the Project
 
 ## Data Collection and Processing
 The core data collection and processing logic is implemented in job_pipeline.py. Data is collected and cleaned by calling the pipeline functions from the notebook.
