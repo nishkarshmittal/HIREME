@@ -15,28 +15,28 @@ Job data was collected using the Remotive public API. This API provides structur
 
 These sources were selected due to their accessibility, structured data format, and reproducibility.
 
-# Data Samples
+# Data Samples          
 Approximately 100 raw job postings were collected from all sources combined. After removing duplicate entries and incomplete records during the data cleaning process, approximately 260 job postings were retained for final analysis.
 
 # Project Structure
 The project is organized into modular components to ensure clarity and reproducibility.
 
-# job_pipeline.py
+job_pipeline.py        
 Contains the core logic for data collection, cleaning, feature extraction, and preprocessing. All scraping and processing functions are implemented in this file.
 
-# Nishkarsh_Mittal_Final_Project.ipynb
+Nishkarsh_Mittal_Final_Project.ipynb                 
 Jupyter notebook used primarily for visualization and presentation. The notebook imports functions from the pipeline file and focuses on analysis and visual interpretation of the results.
 
-# jobs_raw.csv
+jobs_raw.csv               
 Raw dataset containing combined job postings collected from all sources.
 
-# jobs_processed.csv
+jobs_processed.csv                    
 Cleaned and processed dataset used for analysis and visualization.
 
-# requirements.txt
+requirements.txt         
 List of Python dependencies required to run the project.
 
-# final_report.pdf
+final_report.pdf                            
 Final project report describing the methodology, analysis, results, and conclusions.
 
 ## Setup Instructions
@@ -65,7 +65,7 @@ This step fetches job postings from all configured sources and prepares the data
 # Saving the Data
 The collected and processed datasets can be saved as CSV files using:
 
-raw_df.to_csv("jobs_raw.csv", index=False)
+raw_df.to_csv("jobs_raw.csv", index=False)         
 processed_df.to_csv("jobs_processed.csv", index=False)
 
 # Analysis and Visualization
