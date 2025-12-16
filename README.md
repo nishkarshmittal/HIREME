@@ -88,7 +88,7 @@ The original project proposal included additional job platforms such as WeWorkRe
 # Future Work
 Future extensions of this project could include integrating additional job platforms with official APIs, applying natural language processing techniques for deeper analysis of job descriptions, performing time series analysis to study hiring trends over longer periods, and developing an interactive dashboard for real time exploration of job market data.
 
-Author
-Nishkarsh Mittal
-University of Southern California
-Email: nishkars@usc.edu
+Author           
+Nishkarsh Mittal          
+University of Southern California          
+Email: nishkars@usc.edu              
